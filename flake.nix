@@ -8,7 +8,7 @@
           buildInputs = with pkgs; [ cargo rustc rust-analyzer libgourou ];
         };
         packages.default = pkgs.rustPlatform.buildRustPackage {
-          pname = "bookdl";
+          pname = "ebookdl";
           version = "0.1.0";
 
           src = ./.;
